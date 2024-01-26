@@ -1,0 +1,20 @@
+Choose between USD and EUR
+Euro coins:
+    50c
+    20c
+    10c
+    5c
+    2c
+    1c
+New amount = 'Entered amount' * 100
+# of 50c coins = New amount / 50
+Remainder1 = New amount % 50
+# of 20c coins = Remainder1 / 20
+Remainder2 = Remainder1 % 20
+# of 10c coins = Remainder2 / 10
+Remainder3 = Remainder2 % 10
+# of 5c coins = Remainder3 / 5
+Remainder4 = Remainder3 % 5
+# of 2c coins = Remainder4 / 2
+Remainder5 = Remainder4 % 2
+# of 1c coins = Remainder5 / 1
